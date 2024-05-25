@@ -1,0 +1,99 @@
+.portada{
+    padding-top: 18.0rem;
+    &__top{
+        position: relative;
+        @media only screen and (max-width:$bp-large){
+            background-image: url(../img/portada.jpg);
+            background-position: center;
+            background-size: cover;
+        }
+        &--img{
+            width: 100%;
+            display: block;
+            @media only screen and (max-width:$bp-large){
+                display: none;
+            }
+        }
+        &__contenedor{
+            position: absolute;
+            top: 50%;
+            width:100rem;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            display: flex;
+            @media only screen and (max-width: $bp-extraLarge){
+                width: auto;
+            }
+            @media only screen and (max-width:$bp-large){
+                position: static;
+                transform: none;
+                padding: 5rem 0;
+                display: flex;
+                justify-content: center;
+            }
+            &__box{
+                color: white;
+                text-align: center;
+                &--t1,
+                &--t2,
+                &--t3{
+                    text-transform: uppercase;
+                    font-weight: 700;
+                }
+                &--t1{
+                    font-size: 1.6rem;
+                    margin-bottom: -1rem;
+                }
+                &--t2{
+                    font-size: 9rem;
+                    margin-bottom: -4rem;
+                    @media only screen and (max-width:$bp-large){
+                        font-size: 5rem;
+                        margin-bottom: -1rem;
+                    }
+                }
+                &--t3{
+                    font-size: 5rem;
+                    @media only screen and (max-width:$bp-large){
+                        font-size: 2rem;
+                    }
+                }
+                &--t4{
+                    font-size: 2.5rem;
+                    @media only screen and (max-width:$bp-large){
+                        font-size: 1.8rem;
+                    }
+                }
+                &--btn{
+                    background-color: white;
+                    font-size: 1.6rem;
+                    color:$color-secondary;
+                    font-weight: 900;
+                    padding: 2rem 3rem 1.7rem 3rem;
+                    border-radius: 0.5rem;
+                    transition: ease 0.5s;
+                    &:hover{
+                        background-color: $color-secondary;
+                        color: white;
+                        transition: ease 0.5s;
+                    }
+                }
+            }
+        }
+    }
+    &__bottom{
+        display: flex;
+        flex-wrap: wrap;
+        img{
+            display: block;
+            width: 25%;
+            @media only screen and (max-width:$bp-large){
+                width: 50%;
+            }
+            @media only screen and (max-width:$bp-small){
+                width: 100%;
+            }
+        }
+    }
+}

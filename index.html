@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jobaira Store</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Khula:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/estilos.css">
+    <!-- <script src="js/codigo.js" defer></script> -->
+</head>
+<body>
+    <nav class="nav">
+        <div class="nav__welcome pt-1 pb-1">
+            <div class="nav__welcome__contenedor contenedor">
+                <div class="nav__welcome__contenedor--msj">
+                    Default welcome msg!
+                </div>
+                <div class="nav__welcome__contenedor__acces">
+                    <a href="" class="nav__welcome__contenedor__acces--account">
+                        <i class="fa-solid fa-user"></i>My Account
+                    </a>
+                    <select class="nav__welcome__contenedor__acces--moneda">
+                        <option value="">USD $</option>
+                        <option value="">PEN S/</option>
+                    </select>
+                    <select class="nav__welcome__contenedor__acces--idioma">
+                        <option value="">English</option>
+                        <option value="">Spanish</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+        <menu class="nav__menu">
+            <div class="nav__menu__contenedor contenedor">
+                <img src="./img/logo1.png" alt="" class="nav__menu__contenedor--logo">
+                <a href="#"class="nav__menu__contenedor--iconMenu">
+                    <i class="fa-solid fa-bars"></i>
+                </a>
+                <div class="nav__menu__contenedor__right">
+                    <ul class="nav__menu__contenedor__right__box mr-9">
+                        <li class="nav__menu__contenedor__right__box__item">
+                            <a href="#" class="nav__menu__contenedor__right__box__item--link">home</a></li>
+                        <li class="nav__menu__contenedor__right__box__item">
+                            <a href="#" class="nav__menu__contenedor__right__box__item--link">shop</a></li>
+                        <li class="nav__menu__contenedor__right__box__item">
+                            <a href="#" class="nav__menu__contenedor__right__box__item--link">blog</a></li>
+                        <li class="nav__menu__contenedor__right__box__item">
+                            <a href="#" class="nav__menu__contenedor__right__box__item--link">pages</a></li>
+                        <li class="nav__menu__contenedor__right__box__item">
+                            <a href="#" class="nav__menu__contenedor__right__box__item--link">contact</a></li>
+                        <li class="nav__menu__contenedor__right__box__item">
+                            <a href="#" class="nav__menu__contenedor__right__box__item--link">about us
+                            </a></li> 
+                    </ul>
+                    <a href="#" class="nav__menu__contenedor__right__cart">
+                        <div class="nav__menu__contenedor__right__cart__box">
+                            <i class="fa-solid fa-cart-shopping"></i>
+                            <span>2</span>
+                        </div>
+                        <span>My Cart</span>
+                        <span>$54.90</span>
+                    </a>
+                </div>
+            </div>
+        </menu>
+        <div class="nav__search">
+            <div class="nav__search__contenedor contenedor">
+                <div class="nav__search__contenedor__category">
+                    <i class="fa-solid fa-bars-staggered"></i>
+                    <span class="ml-2 mr-2">shop by categories</span>
+                    <i class="fa-solid fa-angle-down"></i>
+                </div>
+                <form class="nav__search__contenedor__form">
+                    <input type="text" placeholder="Enter your search key ...">
+                    <select>
+                        <option value=""> All Categories</option>
+                        <option value=""> Perifericos</option>
+                        <option value=""> Accesorios</option>
+                    </select>
+                    <i class="fa-solid fa-angle-down"></i>
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </form>
+                <div class="nav__search__contenedor__phone">
+                    <i class="fa-solid fa-phone-volume"></i>
+                    <span>(080) 123 4367 890</span>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <header class="portada">
+        <div class="portada__top">
+            <img src="./img/portada.jpg" alt="jobaira portada" class="portada__top--img">
+            <div class="portada__top__contenedor">
+                <div class="portada__top__contenedor__box">
+                    <p class="portada__top__contenedor__box--t1">
+                        premiun ecommerce html template
+                    </p>
+                    <p class="portada__top__contenedor__box--t2">
+                        hurry up
+                    </p>
+                    <p class="portada__top__contenedor__box--t3">
+                        2024 xail gear vr
+                    </p>
+                    <p class="portada__top__contenedor__box--t4 mb-1">
+                        starting At $19.90
+                    </p>
+                    <a href="#" class="portada__top__contenedor__box--btn">
+                        Shop Now
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="portada__bottom">
+            <img src="img/portada1.jpg" alt="">
+            <img src="img/portada2.jpg" alt="">
+            <img src="img/Portada3.jpg" alt="">
+            <img src="img/portada4.jpg" alt="">
+        </div>
+    </header>
+    <section class="cards pt-5 pb-5">
+        <div class="cards__contenedor contenedor">
+            <div class="cards__contenedor__item">
+                <i class="fa-solid fa-truck-fast"></i>
+                <spam class="cards__contenedor__item--titulo">
+                    Free Shipping
+                </spam>
+                <spam class="cards__contenedor__item--descri">
+                    Free Shipping on all UK orders
+                </spam>
+            </div>
+            <div class="cards__contenedor__item">
+                <i class="fa-solid fa-credit-card"></i>
+                <spam class="cards__contenedor__item--titulo">
+                    Free Shipping
+                </spam>
+                <spam class="cards__contenedor__item--descri">
+                    Free Shipping on all UK orders
+                </spam>
+            </div>
+            <div class="cards__contenedor__item">
+                <i class="fa-solid fa-calendar"></i>
+                <spam class="cards__contenedor__item--titulo">
+                    Free Shipping
+                </spam>
+                <spam class="cards__contenedor__item--descri">
+                    Free Shipping on all UK orders
+                </spam>
+            </div>
+            <div class="cards__contenedor__item">
+                <i class="fa-solid fa-asterisk"></i>
+                <spam class="cards__contenedor__item--titulo">
+                    Free Shipping
+                </spam>
+                <spam class="cards__contenedor__item--descri">
+                    Free Shipping on all UK orders
+                </spam>
+            </div>
+        </div>
+    </section>
+    <section class="productos pb-5">
+        <div class="productos__contenedor contenedor">
+            <div class="productos__contenedor__menu">
+                <a href="#" class="productos__contenedor__menu--link active">
+                    new arrival
+                </a>
+                <a href="#" class="productos__contenedor__menu--link ml-5">
+                    betseller
+                </a>
+                <a href="#" class="productos__contenedor__menu--link ml-5">
+                    featured products
+                </a>
+            </div>
+            <div class="productos__contenedor__box mt-3">
+                <article class="productos__contenedor__box__item">
+                    <div class="productos__contenedor__box__item__top">
+                        <span>New</span>
+                        <span>-10%</span>
+                    </div>
+                    <img src="img/camara.jpg" alt="">
+                    <p class="productos__contenedor__box__item--cat">
+                        Studio design
+                    </p>
+                    <h2 class="productos__contenedor__box__item--name">
+                        Camara Sony Alpha 7
+                    </h2>
+                    <div class="productos__contenedor__box__item__stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                    </div>
+                    <div class="productos__contenedor__box__item__precio">
+                        <span class="productos__contenedor__box__item__precio--real">
+                            $23.99
+                        </span>
+                        <span class="productos__contenedor__box__item__precio--oferta">
+                            $13.99
+                        </span>
+                    </div>
+                    <a href="" class="productos__contenedor__box__item--btn">
+                        add to cart
+                    </a>
+                </article>
+                <article class="productos__contenedor__box__item">
+                    <div class="productos__contenedor__box__item__top">
+                        <span>New</span>
+                        <span>-10%</span>
+                    </div>
+                    <img src="img/Celular.jpg" alt="">
+                    <p class="productos__contenedor__box__item--cat">
+                        Studio design
+                    </p>
+                    <h2 class="productos__contenedor__box__item--name">
+                        Celular Nokia
+                    </h2>
+                    <div class="productos__contenedor__box__item__stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                    </div>
+                    <div class="productos__contenedor__box__item__precio">
+                        <span class="productos__contenedor__box__item__precio--real">
+                            $250.00
+                        </span>
+                        <span class="productos__contenedor__box__item__precio--oferta">
+                            $200.00
+                        </span>
+                    </div>
+                    <a href="" class="productos__contenedor__box__item--btn">
+                        add to cart
+                    </a>
+                </article>
+                <article class="productos__contenedor__box__item">
+                    <div class="productos__contenedor__box__item__top">
+                        <span>New</span>
+                        <span>-10%</span>
+                    </div>
+                    <img src="img/laptop.jpg" alt="">
+                    <p class="productos__contenedor__box__item--cat">
+                        Studio design
+                    </p>
+                    <h2 class="productos__contenedor__box__item--name">
+                        Laptop HP
+                    </h2>
+                    <div class="productos__contenedor__box__item__stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                    </div>
+                    <div class="productos__contenedor__box__item__precio">
+                        <span class="productos__contenedor__box__item__precio--real">
+                            $500.00
+                        </span>
+                        <span class="productos__contenedor__box__item__precio--oferta">
+                            $450.00
+                        </span>
+                    </div>
+                    <a href="" class="productos__contenedor__box__item--btn">
+                        add to cart
+                    </a>
+                </article>
+                <article class="productos__contenedor__box__item">
+                    <div class="productos__contenedor__box__item__top">
+                        <span>New</span>
+                        <span>-10%</span>
+                    </div>
+                    <img src="img/mando.jpg" alt="">
+                    <p class="productos__contenedor__box__item--cat">
+                        Studio design
+                    </p>
+                    <h2 class="productos__contenedor__box__item--name">
+                        Mando Xbox
+                    </h2>
+                    <div class="productos__contenedor__box__item__stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                    </div>
+                    <div class="productos__contenedor__box__item__precio">
+                        <span class="productos__contenedor__box__item__precio--real">
+                            $80.00
+                        </span>
+                        <span class="productos__contenedor__box__item__precio--oferta">
+                            $70.00
+                        </span>
+                    </div>
+                    <a href="" class="productos__contenedor__box__item--btn">
+                        add to cart
+                    </a>
+                </article>
+                <article class="productos__contenedor__box__item">
+                    <div class="productos__contenedor__box__item__top">
+                        <span>New</span>
+                        <span>-10%</span>
+                    </div>
+                    <img src="img/parlante.jpg" alt="">
+                    <p class="productos__contenedor__box__item--cat">
+                        Studio design
+                    </p>
+                    <h2 class="productos__contenedor__box__item--name">
+                        Parlante Inteligente
+                    </h2>
+                    <div class="productos__contenedor__box__item__stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                    </div>
+                    <div class="productos__contenedor__box__item__precio">
+                        <span class="productos__contenedor__box__item__precio--real">
+                            $23.99
+                        </span>
+                        <span class="productos__contenedor__box__item__precio--oferta">
+                            $13.99
+                        </span>
+                    </div>
+                    <a href="" class="productos__contenedor__box__item--btn">
+                        add to cart
+                    </a>
+                </article>
+                <article class="productos__contenedor__box__item">
+                    <div class="productos__contenedor__box__item__top">
+                        <span>New</span>
+                        <span>-10%</span>
+                    </div>
+                    <img src="img/reloj.jpg" alt="">
+                    <p class="productos__contenedor__box__item--cat">
+                        Studio design
+                    </p>
+                    <h2 class="productos__contenedor__box__item--name">
+                        Smartwatch
+                    </h2>
+                    <div class="productos__contenedor__box__item__stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                    </div>
+                    <div class="productos__contenedor__box__item__precio">
+                        <span class="productos__contenedor__box__item__precio--real">
+                            $100.00
+                        </span>
+                        <span class="productos__contenedor__box__item__precio--oferta">
+                            $95.00
+                        </span>
+                    </div>
+                    <a href="" class="productos__contenedor__box__item--btn">
+                        add to cart
+                    </a>
+                </article>
+                <article class="productos__contenedor__box__item">
+                    <div class="productos__contenedor__box__item__top">
+                        <span>New</span>
+                        <span>-10%</span>
+                    </div>
+                    <img src="img/tv.jpg" alt="">
+                    <p class="productos__contenedor__box__item--cat">
+                        Studio design
+                    </p>
+                    <h2 class="productos__contenedor__box__item--name">
+                        TV 50p
+                    </h2>
+                    <div class="productos__contenedor__box__item__stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                    </div>
+                    <div class="productos__contenedor__box__item__precio">
+                        <span class="productos__contenedor__box__item__precio--real">
+                            $300.00
+                        </span>
+                        <span class="productos__contenedor__box__item__precio--oferta">
+                            $250.00
+                        </span>
+                    </div>
+                    <a href="" class="productos__contenedor__box__item--btn">
+                        add to cart
+                    </a>
+                </article>
+                <article class="productos__contenedor__box__item">
+                    <div class="productos__contenedor__box__item__top">
+                        <span>New</span>
+                        <span>-10%</span>
+                    </div>
+                    <img src="img/cel2.jpg" alt="">
+                    <p class="productos__contenedor__box__item--cat">
+                        Studio design
+                    </p>
+                    <h2 class="productos__contenedor__box__item--name">
+                        Celular Samsung
+                    </h2>
+                    <div class="productos__contenedor__box__item__stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                    </div>
+                    <div class="productos__contenedor__box__item__precio">
+                        <span class="productos__contenedor__box__item__precio--real">
+                            $200.00
+                        </span>
+                        <span class="productos__contenedor__box__item__precio--oferta">
+                            $150.00
+                        </span>
+                    </div>
+                    <a href="" class="productos__contenedor__box__item--btn">
+                        add to cart
+                    </a>
+                </article>
+            </div>
+        </div>
+    </section>
+    <aside class="container">
+        <div class="container__element1">
+            <div class="container__element1__componente">
+                <div class="container__element1__componente__line">
+                    <div class="container__element1__componente__linea"></div>
+                    <h4 class="container__element1__componente--audio1">SALE UP TO 20% OFF</h4>
+                </div>
+                <h1 class="container__element1__componente--audifono">20% OFF</h1>
+                <h2 class="container__element1__componente--audio">Wireless</h2>
+                <h2 class="container__element1__componente--audio">Fetures</h2>
+                <a href="#" class="container__element1__componente--click">Shop Now</a>
+            </div>
+        </div>
+    </aside>
+    <aside class="container2">
+        <div class="container2__element2">
+            <div class="container2__element2__componente2">
+                <h1 class="container2__element2__componente2--a">JOIN OUR</h1>
+                <h2 class="container2__element2__componente2--b">Newsletter Now!</h2>
+                <p class="container2__element2__componente2--c">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quod officia ipsa pariatur porro laboriosam temporibus impedit doloremque.</p>
+            </div>
+            <form class="container2__element2__componente2__add">
+                <input type="text" placeholder="Enter your email address">
+                <i class="fa-solid fa-paper-plane"></i>
+            </form>
+        </div>
+    </aside>
+    <script src="js/codigo.js"></script>
+  </body>
+</html>

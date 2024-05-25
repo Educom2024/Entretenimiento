@@ -1,0 +1,68 @@
+.container2{
+    background-image: url(../img/audio2.jpg);
+    background-size: cover;
+    max-width: 120rem;
+    margin: 0 auto;
+    padding-bottom: 6rem;
+    &__element2{
+        &__componente2{
+            width: 40%;
+            margin-left: auto;
+            margin-right: auto;
+            text-align: center;
+            &--a{
+                font-size: 5rem;
+                font-weight: 100;
+                padding-top: 6rem;
+                line-height: 4rem;
+                @media screen and (max-width:400px){
+                    width: 130%;
+                    margin-left: -2rem;
+                }
+            }
+            &--b{
+                font-size: 5rem;
+                padding-top: 1rem;
+                @media screen and (max-width:400px){
+                    width: 29rem;
+                    margin-left: -7rem;
+                    font-size: 3.6rem;
+                }
+            }
+            &--c{
+                font-size: 1.4rem;
+                color: $color-secondary;
+                @media screen and (max-width:400px){
+                    width: 219%;
+                    margin-left: -9.4rem;
+                }
+            }
+            &__add{ 
+               position: relative;
+               background-color: white;
+               width: 50%;
+               margin: 0 auto;
+               border: 1.5px solid rgb(229, 229, 229);
+               border-radius: 5rem;
+               overflow: hidden;
+               margin-top: 2rem;
+               @media screen and (max-width:400px){
+                width: 92%;
+               }
+               input{
+                padding: 1.5rem 5rem 1.5rem 3rem;
+                border: none;
+                outline: 0;
+                width: 80%;
+               }
+            }
+        }
+                i{
+                position: absolute;
+                font-size: 1.8rem;
+                right: 3rem;
+                top: 50%;
+                transform: translateY(-50%);
+           }
+    }
+}

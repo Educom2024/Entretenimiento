@@ -1,0 +1,24 @@
+$font-khula: "Khula", sans-serif;
+$bp-extraLarge: 75em;
+$bp-large: 62rem;
+$bp-mediun: 48em;
+$bp-small: 36em;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    
+    font-size: 62.5%;
+    font-family: $font-khula;
+}
+a, span {
+    display: inline-block;
+}
+a{
+    text-decoration: none;
+}
+ul, ol{
+    list-style: none;
+}
